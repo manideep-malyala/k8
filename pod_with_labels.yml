@@ -9,5 +9,5 @@ metadata:
   
 spec:
   containers:
-    -  name: "httpd_server"
+    -  name: "httpd-server"
        image: "httpd"
