@@ -1,0 +1,13 @@
+apiVersion: v1
+
+kind: Pod
+metadata:
+  name: "web-app"
+  labels:
+    env: "production"
+    team: "usa"
+  
+spec:
+  containers:
+    -  name: "httpd_server"
+       image: "httpd"
